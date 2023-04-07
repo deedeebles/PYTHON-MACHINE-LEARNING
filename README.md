@@ -6,9 +6,11 @@
 
 This project report aims to show the method I used to:
 
-Determine the types of employees leaving. 
++ Determine the categories of employees leaving company X. 
 
-Predict the employees that are prone to leaving next.
++ Determine the categories of employees currently present in company X
+
++ Predict the employees that are prone to leaving company X next.
 
 
 ### Data Preprocessing
