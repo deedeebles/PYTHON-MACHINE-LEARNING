@@ -10,7 +10,6 @@ Determine the types of employees leaving.
 
 Predict the employees that are prone to leaving next.
 
-Explain the reasons employees are prone to leaving after analyzing company X’s employee attrition dataset.
 
 ### Data Preprocessing
 Importing necessary python libraries such as numpy, pandas, matplotlib.pyplot and seaborn
@@ -67,6 +66,16 @@ Five categories of employees are remaining:
 + Category 5: employees who have both high satisfaction and high evaluation (present in the types of employees who left).
 
 
+### Data Preprocessing and Fitting Machine Learning Model (Random Forest Classifier)
+To predict the employees prone to leaving the company next, I performed the following:
+
++ Feature selection: Using the combined data, I selected the independent and the dependent variables.
+
++ Encoding categorical data: I encoded categorical columns using LabelEncoder from sklearn.preprocessing.
+
++ Splitting data into test and train set: I split the selected variables into 70% train and 30% test sets to make fitting the machine learning model possible and also make predictions.
+
++ Fitting Machine Learning Algorithm: I used the random forest classifier to predict the test results and checked the accuracy score using metrics from scikit-learn. This returned an accuracy result of 99.2%.
 
 
 
